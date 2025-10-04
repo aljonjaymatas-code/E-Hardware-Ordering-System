@@ -1,0 +1,103 @@
+/* ================= Navbar Styles ================= */
+nav {
+  background: linear-gradient(135deg, #001f3f, #004080);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+nav h2 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #FBBF24;
+}
+
+/* ================= Page Styles ================= */
+body {
+  margin: 0;
+  background: #f4f4f4;
+  font-family: Arial, sans-serif;
+  color: #111;
+}
+
+section {
+  padding: 80px;
+  text-align: center;
+}
+
+/* ================= About Page Styles ================= */
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #004080;
+}
+
+.features {
+  margin-top: 20px;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.cta a {
+  background: #004080;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta a:hover {
+  background: #FBBF24;
+  color: #001f3f;
+}
+
+/* ================= Responsive Design ================= */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .container {
+    padding: 20px;
+  }
+}
