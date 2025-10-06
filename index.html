@@ -1,40 +1,40 @@
-
-
-<!-- Dashboard -->
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>E-Hardware | Home</title>
-    <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <!-- Navbar -->
-  <!-- paste navbar here -->
+  <nav>
+    <h2>E-Hardware</h2>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Product.html">Products</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Contact.html">Contact</a></li>
 
-  <!-- ====== NAVBAR (Use on every page) ====== -->
-<nav>
-  <h2>E-Hardware</h2>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="Product.html">Products</a></li>
-    <li><a href="About.html">About</a></li>
-    <li><a href="Contact.html">Contact</a></li>
-    <li><a href="Login.html">Login</a></li>
-    <li><a href="Register.html">Register</a></li>
-  </ul>
-</nav>
+      <!-- Dropdown Login -->
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Login ▾</a>
+        <div class="dropdown-content">
+          <a href="login_user.html">Login as User</a>
+          <a href="login_admin.html">Login as Admin</a>
+        </div>
+      </li>
 
+      <li><a href="Register.html">Register</a></li>
+    </ul>
+  </nav>
 
-  <section>
-    <h1>Welcome to E-Hardware Ordering System</h1>
-    <p>Order hardware tools and materials easily and efficiently.</p>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <img src="E-Hardware.png" alt="E-Hardware Logo" class="logo">
+      <p>Smash Your DIY Projects with Quality Tools!</p>
+      <a href="Product.html" class="btn-primary">Browse Products</a>
+    </div>
   </section>
-
-  
 </body>
 </html>
-
-

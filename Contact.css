@@ -43,3 +43,42 @@ section {
   padding: 80px;
   text-align: center;
 }
+
+/* ========== Dropdown Styles ========== */
+.dropdown {
+  position: relative;
+}
+
+.dropbtn {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #004080;
+  min-width: 180px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+}
+
+.dropdown-content a:hover {
+  background-color: #FBBF24;
+  color: #001f3f;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
